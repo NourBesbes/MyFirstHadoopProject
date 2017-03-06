@@ -1,27 +1,27 @@
 # MyFirstHadoopProject
 
 Les champs du fichier log à traiter sont séparés par des tabulations et ont la forme suivante:
-*date   temps	magasin   produit   coût	paiement
+* date   temps	magasin   produit   coût	paiement
 
 
 # Activité 4
 Le but de cette activite est de déterminer le total des ventes par magasin pour cela on développe :
-*un Mapper afin d'extraire les couples (magasin,coût) 
-*Un Reducer pour calculer le total des ventes pour chaque magasin  
+* un Mapper afin d'extraire les couples (magasin,coût) 
+* Un Reducer pour calculer le total des ventes pour chaque magasin  
 
 # Activité 5
 Le but de cette activite est de donner la liste des ventes par catégorie de produits pour cela on développe :
- *un Mapper afin d'extraire les couples (produit,coût) 
- *Un Reducer pour calculer le total des ventes pour chaque produit
+ * un Mapper afin d'extraire les couples (produit,coût) 
+ * Un Reducer pour calculer le total des ventes pour chaque produit
 # Activité 6
 Le but de cette activite est de donner le montant de la vente le plus élevé pour chaque magasin pour cela on utilise :
- *Le Mapper implémenté à l'activité 4
- *Un Reducer pour déterminer le montant de la vente le plus élevé pour chaque magasin
+ * Le Mapper implémenté à l'activité 4
+ * Un Reducer pour déterminer le montant de la vente le plus élevé pour chaque magasin
 # Activité 7
 Le but de cette activite est de déterminer le nombre total des ventes et la valeur totale des ventes de tous magasins
 confondus pour cela on utilise :
- *Le Mapper qui aura pour résultat les couples ("Total",cout)
- *Un Reducer pour calculer le nombre total des ventes et la somme des couts de tous les magasins le resultat est un couple ("Total",NombreVentes__TotalVente)
+ * Le Mapper qui aura pour résultat les couples ("Total",cout)
+ * Un Reducer pour calculer le nombre total des ventes et la somme des couts de tous les magasins le resultat est un couple ("Total",NombreVentes__TotalVente)
 
 
 # Teste
