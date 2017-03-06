@@ -1,5 +1,4 @@
 # MyFirstHadoopProject
-# MapReduce en JAVA
 
 Les champs du fichier log à traiter sont séparés par des tabulations et ont la forme suivante:
 *date   temps	magasin   produit   coût	paiement
