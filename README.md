@@ -7,8 +7,8 @@ Les champs du fichier log à traiter sont séparés par des tabulations et ont l
 
 # Activité 4
 Le but de cette activite est de déterminer le total des ventes par magasin pour cela on développe :
- *un Mapper afin d'extraire les couples (magasin,coût) 
- *Un Reducer pour calculer le total des ventes pour chaque magasin  
+*un Mapper afin d'extraire les couples (magasin,coût) 
+*Un Reducer pour calculer le total des ventes pour chaque magasin  
 
 # Activité 5
 Le but de cette activite est de donner la liste des ventes par catégorie de produits pour cela on développe :
